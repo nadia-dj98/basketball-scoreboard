@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1B244A;
+    
+
+}
+@font-face {
+    font-family: timer-font;
+    src: url(CursedTimerUlil-Aznm.ttf)
+}
+.team-header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 40px;
+    line-height: 36px;
+    margin-bottom: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    background-color: #080001;
+    color: #EEEEEE;
+    width: 175px;
+    height: 120px;
+    border-radius: 5px;
+    font-size: 90px;
+    font-family: timer-font;
+    color: #F94F6D;
+    line-height: 130px;
+    margin: 20px 30px;
+    
+}
+
+.button-item {
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    font-family: timer-font;
+    line-height: 28px;
+    
+    
+}
+.buttons-group {
+    display: flex;
+    justify-content: center;
+}
+
+.button-div {
+    padding: 5px;
+}
+
+.new-game-button {
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 105px;
+    height: 65px;
+    font-size: 18px;
+    font-family: timer-font;
+    line-height: 28px;
+}
+
+#new-game-div {
+    padding-top: 30px;
+}

@@ -1,0 +1,47 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="home-container">
+                <div class="team">
+                    <h3 class="team-header">HOME</h3>
+                    <h3 class="score" id="homeScore">0</h3>
+                </div>
+                <div class="buttons-group">
+                    <div class= "button-div">
+                        <button class="button-item" onclick="plusOneHome()">+1</button>
+                    </div>
+                    <div class= "button-div">
+                        <button class="button-item" onclick="plusTwoHome()">+2</button>
+                    </div>
+                    <div class= "button-div">
+                        <button class="button-item" onclick="plusThreeHome()">+3</button>
+                    </div>
+                </div>
+            </div>
+            <div id="guest-container">
+                <div class="team">
+                    <h3 class="team-header">GUEST</h3>
+                    <h3 class="score" id="guestScore">0</h3>
+                </div>
+                <div class="buttons-group">
+                    <div class= "button-div">
+                        <button class="button-item" onclick="plusOneGuest()">+1</button>
+                    </div>
+                    <div class= "button-div">
+                        <button class="button-item" onclick="plusTwoGuest()">+2</button>
+                    </div>
+                    <div class= "button-div">
+                        <button class="button-item" onclick="plusThreeGuest()">+3</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="new-game-div">
+                <button class="new-game-button" onclick="newGame()">New Game</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
